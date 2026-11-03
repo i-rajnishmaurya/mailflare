@@ -8,6 +8,12 @@
 		"nodejs_compat",
 		"global_fetch_strictly_public"
 	],
+	"vars": {
+		"B2_KEY_ID": "005616963b231db0000000001",
+		"B2_APPLICATION_KEY": "K005iCxxZO3YuyoBxBpouQexEAMByew",
+		"B2_BUCKET": "rajnishcodex",
+		"B2_ENDPOINT": "s3.us-east-005.backblazeb2.com"
+	},
 	"assets": {
 		"binding": "ASSETS",
 		"not_found_handling": "none",
@@ -77,12 +83,6 @@
 			"binding": "DB",
 			"database_name": "mailflare",
 			"migrations_dir": "drizzle/migrations",
-		},
-	],
-	"r2_buckets": [
-		{
-			"binding": "BUCKET",
-			"bucket_name": "mailflare-raw",
 		},
 	],
 	"queues": {
